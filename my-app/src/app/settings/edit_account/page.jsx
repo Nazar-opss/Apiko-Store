@@ -1,6 +1,6 @@
 "use client";
-import IconInput from "@/app/inputs/IconInput";
-import Input from "@/app/inputs/Input";
+import IconInput from "@/app/components/inputs/IconInput";
+import Input from "@/app/components/inputs/Input";
 import { login } from "@/app/state/slice/AuthSlice";
 import { fetchCountries } from "@/app/state/slice/FetchSlice";
 import { updateAccount, updatePassword } from "@/app/state/slice/UserSlice";

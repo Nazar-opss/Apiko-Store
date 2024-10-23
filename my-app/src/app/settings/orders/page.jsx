@@ -1,5 +1,5 @@
 'use client'
-import ModalOrder from '@/app/components/modals/ModalOrder'
+import ModalOrder from '@/app/components/orders/ModalOrder'
 import { closeModal, openModal } from '@/app/state/slice/ModalSlice'
 import { getOrders } from '@/app/state/slice/UserSlice'
 import { format } from 'date-fns'
