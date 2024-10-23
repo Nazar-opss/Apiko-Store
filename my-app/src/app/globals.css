@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  background: #F8F8F8;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  background: #AFDBBE !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.footer {
+  background: #F1F1F3;
+  width: 100%;
+  padding: 25px 0px;
+  text-align: center;
+  color: #707070;
+  font-size: 14px;
+  line-height: 26px;
+  bottom: 0;
+  /* position: absolute; */
+}
+
+input[type="password"] {
+  /* -webkit-text-security: disc;
+  font-size: 45px; */
+  font: large Verdana,sans-serif;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
