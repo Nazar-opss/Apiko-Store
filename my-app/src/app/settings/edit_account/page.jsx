@@ -1,6 +1,6 @@
 "use client";
-import IconInput from "@/app/IconInput";
-import Input from "@/app/Input";
+import IconInput from "@/app/inputs/IconInput";
+import Input from "@/app/inputs/Input";
 import { login } from "@/app/state/slice/AuthSlice";
 import { fetchCountries } from "@/app/state/slice/FetchSlice";
 import { updateAccount, updatePassword } from "@/app/state/slice/UserSlice";
@@ -8,7 +8,7 @@ import { Button } from "@headlessui/react";
 import React, { useEffect, useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
-import { CloseButton } from "@/app/ModalItem";
+import { CloseButton } from "@/app/components/modals/ModalItem";
 import { Slide, toast } from "react-toastify";
 
 function Edit() {
